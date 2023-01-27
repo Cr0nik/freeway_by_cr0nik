@@ -34,6 +34,7 @@ function verificaColisao(){
       xAtor = 100;
       yAtor = 370;
       colidiu.play();
+      placarUsuario = 0;
     }
   } 
 }
