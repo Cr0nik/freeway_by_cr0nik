@@ -8,21 +8,21 @@ function mostraAtor(){
 
 function movimentaAtor(){
   if(keyIsDown(UP_ARROW)){
-       yAtor -= 2;
+       yAtor -= 3;
   }
   if(keyIsDown(DOWN_ARROW)){
     if(podeMover()){
-        yAtor += 2;
+        yAtor += 3;
     }    
   }
   if(keyIsDown(LEFT_ARROW)){
     if(podeMover2()){
-        xAtor -= 2;
+        xAtor -= 3;
     }
   }
   if(keyIsDown(RIGHT_ARROW)){
     if(podeMover3()){
-        xAtor += 2;
+        xAtor += 3;
     } 
   }
 }

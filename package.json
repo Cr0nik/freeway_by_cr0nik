@@ -1,0 +1,14 @@
+{
+  "name": "freeway_by_cr0nik",
+  "version": "1.0.0",
+  "description": "freeway",
+  "main": "main.js",
+  "author": "Cronik",
+  "license": "MIT",
+  "scripts": {
+    "start": "electron ."
+  },
+  "devDependencies": {
+    "electron": "^19.0.0"
+  }
+}
